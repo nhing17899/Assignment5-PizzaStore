@@ -1,0 +1,25 @@
+﻿@Assignment5-PizzaStore-WebAPI_HostAddress = https://localhost:7089
+
+
+GET {{Assignment5-PizzaStore-WebAPI_HostAddress}}/api/customers
+
+###
+
+GET {{Assignment5-PizzaStore-WebAPI_HostAddress}}/api/customers/1
+
+###
+
+POST {{Assignment5-PizzaStore-WebAPI_HostAddress}}/api/customers
+Content-Type: application/json
+
+{
+  "firstName": "Phi",
+  "lastName": "Vo",
+  "address": null,
+  "city": null,
+  "state": null,
+  "postalCode": null,
+  "orders": []
+}
+
+###
